@@ -172,7 +172,7 @@ var config = {
             hidden: false,
             title: '',
             image: 'https://i.ibb.co/0pH5Sc2K/s-reyya-giff.gif',
-            description: '',
+            description: 'Bakireler Anıtı’nın zaman içerisinde değişimi / The transformation of the Temple over time',
             location: {
                  center: [29.12358460330592,40.92628271987823],
                 zoom: 17,
