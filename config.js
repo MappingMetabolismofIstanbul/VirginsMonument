@@ -19,7 +19,7 @@ var config = {
     title: 'Bakireler Anıtı / The Temple of the Virgins ',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '0',
@@ -41,7 +41,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -150,7 +150,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -170,7 +170,7 @@ var config = {
             id: '5',
             alignment: 'full',
             hidden: false,
-            title: 'Bakireler Anıtı’nın zaman içerisinde değişimi / The transformation of the Temple over time',
+            title: '',
             image: 'https://i.ibb.co/0pH5Sc2K/s-reyya-giff.gif',
             description: '',
             location: {
@@ -200,9 +200,9 @@ var config = {
            image: 'https://i.ibb.co/fGXCgxGs/6.png',
             description: '',
             location: {
-                center: [29.12358460330592,40.92628271987823],
+                center: [29.124186116030664,40.9262750072329],
                 zoom: 19,
-                pitch: 10,
+                pitch: 0,
                 bearing: 0,
               
                 // flyTo additional controls-
@@ -212,8 +212,8 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
-            rotateAnimation: true,
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -226,8 +226,8 @@ var config = {
             image: '',
             description: '<iframe frameborder="0" class="juxtapose" width="100%" height="345" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d5234cb6-6d45-11f0-bb24-0936e1cb08fb"></iframe>1982-2022 yılları arası Maltepe Dolgu Alanı değişimi ile yeri değişen Bakireler Anıtı/ İstanbul Urban Database 1982 Uydu ve Google Earth 2022 Uydu görüntülü kullanılarak elde edilmiştir.',
             location: {
-                center: [29.12358460330592,40.92628271987823],
-                zoom: 19,
+                center: [29.119256821519762,40.93769981137879],
+                zoom: 13,
                 pitch: 10,
                 bearing: 0,
               
@@ -239,7 +239,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
